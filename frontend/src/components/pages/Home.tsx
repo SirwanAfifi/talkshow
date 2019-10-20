@@ -4,6 +4,10 @@ interface HomeProps {}
 const Home = (props: HomeProps) => {
   return (
     <div className="join">
+      <h3 className="text-block font-light">
+        به گروه آموزش زبان سنندج خوش آمدید! جهت ثبت نام و رزرو فرم زیر را تکمیل
+        نمائید.
+      </h3>
       <div className="form-group">
         <label>نام و نام خانوادگی:</label>
         <input

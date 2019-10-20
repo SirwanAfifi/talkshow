@@ -2,7 +2,26 @@
   height: 100vh;
   background-image: url(/static/media/background.ecda1071.svg);
   background-repeat: no-repeat;
-  background-position: left 80px bottom 30px;
+  background-position: left 50px bottom;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media (min-width: 1250px) {
+  .header {
+    background-size: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 845px) {
+  .form-group {
+    width: 100%;
+  }
 }
 
 .header .top {

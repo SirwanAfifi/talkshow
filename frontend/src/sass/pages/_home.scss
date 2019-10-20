@@ -1,7 +1,7 @@
 $text-color: #000;
 
 .join {
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 .input-text {
@@ -32,4 +32,9 @@ $text-color: #000;
 
 input.fa {
   text-align: right;
+}
+
+.text-block {
+  width: 40%;
+  color: $white;
 }
