@@ -1,0 +1,35 @@
+$text-color: #000;
+
+.join {
+  margin-top: 25vh;
+}
+
+.input-text {
+  color: $text-color;
+  margin: 0;
+  width: -webkit-fill-available;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow var(--300ms);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.input-text::placeholder {
+  color: #b0bec5;
+}
+
+.input-text:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+}
+
+.input-text.en:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+  direction: ltr;
+}
+
+input.fa {
+  text-align: right;
+}

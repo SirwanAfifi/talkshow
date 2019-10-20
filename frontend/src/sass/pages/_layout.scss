@@ -1,0 +1,45 @@
+.header {
+  height: 100vh;
+  background-image: url(/static/media/background.ecda1071.svg);
+  background-repeat: no-repeat;
+  background-position: left 80px bottom 30px;
+}
+
+.header .top {
+  display: flex;
+  padding-top: 10px;
+}
+
+.header .top .logo {
+  flex: 0.5;
+}
+
+.header .top .menu {
+  flex: 1;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  flex-direction: row-reverse;
+}
+
+.menu ul li {
+  margin: 0 10px 0 10px;
+}
+
+.menu ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  transition: ease-in 0.1s border-bottom;
+}
+
+.menu ul li a:hover {
+  border-bottom: 1px solid white;
+}
